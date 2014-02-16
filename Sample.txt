@@ -1,0 +1,391 @@
+﻿Bản báo cáo tình trạng hiện tại của hệ thống  
+Thực hiện bởi VnSecurity 2008 - Version 2.2 Build 1 
+Thời gian: 9:45:42 AM - 21/03/2009 
+Hệ điều hành: Microsoft Windows XP 
+================================================================= 
+
+ 
+[+] Các tiến trình đang chạy trên máy  
+-----------------------------------------------------------------
+$> Chương trình: 
+C:\WINDOWS\Explorer.EXE 
+C:\Program Files\Bkav2006\Bkav2006.exe 
+D:\Vietkey2000\vknt.exe 
+C:\Program Files\VietBandwidth\VietBandwidth.exe 
+C:\Program Files\VnSecurity 2008\VnSecurity2008.exe 
+C:\Program Files\Internet Explorer\IEXPLORE.EXE 
+
+$> Hệ thống và dịch vụ: 
+C:\WINDOWS\System32\smss.exe 
+C:\WINDOWS\system32\csrss.exe 
+C:\WINDOWS\system32\winlogon.exe 
+C:\WINDOWS\system32\services.exe 
+C:\WINDOWS\system32\lsass.exe 
+C:\WINDOWS\system32\svchost.exe 
+C:\WINDOWS\system32\svchost.exe 
+C:\WINDOWS\System32\svchost.exe 
+C:\WINDOWS\system32\svchost.exe 
+C:\WINDOWS\system32\svchost.exe 
+C:\WINDOWS\system32\spoolsv.exe 
+C:\WINDOWS\system32\alg.exe 
+C:\Program Files\Common Files\Microsoft Shared\Source Engine\OSE.EXE 
+C:\WINDOWS\system32\wmiprvse.exe 
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý tiến trình 
+
+
+[+] Các Dịch vụ đang chạy trên máy 
+-----------------------------------------------------------------
+IPv6 Helper Service = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Application Layer Gateway Service = C:\WINDOWS\System32\alg.exe
+Windows Audio = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Cryptographic Services = C:\WINDOWS\system32\svchost.exe -k netsvcs
+DCOM Server Process Launcher = C:\WINDOWS\system32\svchost -k DcomLaunch
+DHCP Client = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Logical Disk Manager = C:\WINDOWS\System32\svchost.exe -k netsvcs
+DNS Client = C:\WINDOWS\system32\svchost.exe -k NetworkService
+Event Log = C:\WINDOWS\system32\services.exe
+COM+ Event System = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Fast User Switching Compatibility = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Help and Support = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Server = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Workstation = C:\WINDOWS\system32\svchost.exe -k netsvcs
+TCP/IP NetBIOS Helper = C:\WINDOWS\system32\svchost.exe -k LocalService
+Network Connections = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Network Location Awareness (NLA) = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Office Source Engine = "C:\Program Files\Common Files\Microsoft Shared\Source Engine\OSE.EXE"
+Plug and Play = C:\WINDOWS\system32\services.exe
+IPSEC Services = C:\WINDOWS\system32\lsass.exe
+Protected Storage = C:\WINDOWS\system32\lsass.exe
+Remote Access Connection Manager = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Remote Registry = C:\WINDOWS\system32\svchost.exe -k LocalService
+Remote Procedure Call (RPC) = C:\WINDOWS\system32\svchost -k rpcss
+Security Accounts Manager = C:\WINDOWS\system32\lsass.exe
+Task Scheduler = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Secondary Logon = C:\WINDOWS\System32\svchost.exe -k netsvcs
+System Event Notification = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Windows Firewall/Internet Connection Sharing (ICS) = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Shell Hardware Detection = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Print Spooler = C:\WINDOWS\system32\spoolsv.exe
+SSDP Discovery Service = C:\WINDOWS\system32\svchost.exe -k LocalService
+Telephony = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Terminal Services = C:\WINDOWS\System32\svchost -k DComLaunch
+Themes = C:\WINDOWS\System32\svchost.exe -k netsvcs
+Distributed Link Tracking Client = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Windows Time = C:\WINDOWS\System32\svchost.exe -k netsvcs
+WebClient = C:\WINDOWS\system32\svchost.exe -k LocalService
+Windows Management Instrumentation = C:\WINDOWS\system32\svchost.exe -k netsvcs
+Wireless Zero Configuration = C:\WINDOWS\System32\svchost.exe -k netsvcs
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động -> Trình dịch vụ 
+
+
+
+[+] Nội dung tập tin hosts [c:\windows\system32\drivers\etc\hosts] 
+-----------------------------------------------------------------
+# Copyright (c) 1993-1999 Microsoft Corp. 
+# 
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows. 
+# 
+# This file contains the mappings of IP addresses to host names. Each 
+# entry should be kept on an individual line. The IP address should 
+# be placed in the first column followed by the corresponding host name. 
+# The IP address and the host name should be separated by at least one 
+# space. 
+# 
+# Additionally, comments (such as these) may be inserted on individual 
+# lines or following the machine name denoted by a '#' symbol. 
+# 
+# For example: 
+# 
+#      102.54.94.97     rhino.acme.com          # source server 
+#       38.25.63.10     x.acme.com              # x client host 
+127.0.0.1       localhost 
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Tùy chỉnh hệ thống -> Sửa tập tin Hosts 
+
+
+[+] Các ứng dụng nạp trong lúc đăng nhập hệ thống 
+-----------------------------------------------------------------
+[HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon] 
+ + Userinit = C:\WINDOWS\system32\userinit.exe, (Nguyên bản) 
+ + Shell = Explorer.exe (Nguyên bản) 
+ + UIHost = logonui.exe (Nguyên bản) 
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+
+[+] Các ứng dụng khởi động cùng máy từ Registry 
+-----------------------------------------------------------------
+[HKLM\Software\Microsoft\Windows\CurrentVersion\Run] 
+ + BkavFw = C:\Program Files\Bkav2006\Bkav2006.exe TASKBAR 
+ + Vietkey = D:\Vietkey2000\vknt.exe 
+ + VietBandwidth = C:\Program Files\VietBandwidth\VietBandwidth.exe 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnceEx] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Microsoft\Windows NT\CurrentVersion\Run] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\Run] 
+ + VnSecurity = C:\Program Files\VnSecurity 2008\VnSecurity2008.exe /taskbar 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnceEx] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\RunServices] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows NT\CurrentVersion\Run] 
+ *Không có khóa nào* 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+[+] Các ứng dụng khởi động cùng máy từ thư mục Startup 
+-----------------------------------------------------------------
+[C:\Documents and Settings\Administrator\Start Menu\Programs\Startup] 
+ *Không có tập tin nào* 
+
+[C:\Documents and Settings\All Users\Start Menu\Programs\Startup] 
+ *Không có tập tin nào* 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+[+] Các kịch bản được thực hiện khi khởi động, tắt máy (script) 
+-----------------------------------------------------------------
+[HKLM\Software\Policies\Microsoft\Windows\System\Scripts\Startup] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Startup] 
+ *Không có khóa nào* 
+
+[HKLM\Software\Policies\Microsoft\Windows\System\Scripts\Shutdown] 
+ + Script,0 = C:
+tosboot.bat 
+
+[HKLM\Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Shutdown] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Policies\Microsoft\Windows\System\Scripts\Logon] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Logon] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Policies\Microsoft\Windows\System\Scripts\Logoff] 
+ *Không có khóa nào* 
+
+[HKCU\Software\Microsoft\Windows\CurrentVersion\Group Policy\Scripts\Logoff] 
+ *Không có khóa nào* 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+[+] Các thư viện, chương trình được nạp lúc khởi động từ Registry 
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows] 
+ + run = *Không tìm thấy khóa này* 
+ + load = *Không tìm thấy khóa này* 
+ + AppInit_DLLs = *Không tìm thấy khóa này* 
+
+[HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows] 
+ + run = *Không tìm thấy khóa này* 
+ + load = *Không tìm thấy khóa này* 
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động -> Registry Editor 
+
+
+
+[+] Bộ bảo vệ màn hình  
+-----------------------------------------------------------------
+[HKCU\Control Panel\Desktop] 
+ + SCRNSAVE.EXE = *Không tìm thấy khóa này* 
+-----------------------------------------------------------------
+
+[+] Lịch biểu tác vụ (Task Scheduler) 
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\SharedTaskScheduler] 
+ + Browseui preloader = {438755C2-A8BA-11D1-B96B-00A0C90312E1} 
+ + Component Categories cache daemon = {8C7461EF-2B13-11d2-BE35-3078302C2030} 
+
+[C:\WINDOWS\Task] 
+ *Không có công việc nào* 
+
+-----------------------------------------------------------------
+
+[+] Các khóa đăng ký của ShellServiceObjectDelayLoad 
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad] 
+ + PostBootReminder = {7849596a-48ea-486e-8937-a2a3009f31a9} 
+ + CDBurn = {fbeb8a05-beee-4442-804e-409d6c4515e9} 
+ + WebCheck = {E6FB5E20-DE35-11CF-9C87-00AA005127ED} 
+ + SysTray = {35CEC8A3-2BE6-11D2-8773-92E220524153} 
+ + WPDShServiceObj = {AAA288BA-9A4C-45B0-95D7-94D524869DB5} 
+
+-----------------------------------------------------------------
+
+[+] Các thông số thiết lập của Internet Explorer 
+-----------------------------------------------------------------
+[HKCU\Software\Microsoft\Internet Explorer\Main] 
+ + Start Page = http://www.google.com.vn/ 
+ + Search Page = http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=iesearch 
+ + Window Title =  
+ + Local Page = C:\WINDOWS\system32\blank.htm 
+
+[HKCU\Software\Microsoft\Internet Explorer\Main] 
+ + Start Page = http://go.microsoft.com/fwlink/?LinkId=69157 
+ + Search Page = http://go.microsoft.com/fwlink/?LinkId=54896 
+ + Default_Page_URL = http://go.microsoft.com/fwlink/?LinkId=69157 
+ + Default_Search_URL = http://go.microsoft.com/fwlink/?LinkId=54896 
+ + Window Title =  
+ + Local Page = %SystemRoot%\system32\blank.htm 
+
+[HKLM\Software\Microsoft\Internet Explorer\Search] 
+ + SearchAssistant = http://ie.search.msn.com/{SUB_RFC1766}/srchasst/srchasst.htm 
+ + CustomizeSearch = http://ie.search.msn.com/{SUB_RFC1766}/srchasst/srchcust.htm 
+
+[HKCU\Software\Microsoft\Internet Explorer\Toolbar] 
+ + LinksFolderName =  
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Tùy chỉnh hệ thống 
+
+
+[+] Công cụ Internet Explorer Toolbar  
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Internet Explorer\Toolbar] 
+ *Không có toolbar nào được cài* 
+
+[HKCU\SOFTWARE\Microsoft\Internet Explorer\Toolbar] 
+ *Không có toolbar nào được cài* 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+[+] Đối tượng hỗ trợ trình duyệt (Browser Helper Objects) 
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects] 
+ + Octh Class = C:\Program Files\Orbitdownloader\orbitcth.dll - {000123B4-9B42-4900-B3F7-F4B073EFC214} 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Quản lý khởi động 
+
+
+[+] Khóa đăng ký thi hành các kiểu tập tin thực thi 
+-----------------------------------------------------------------
+
+Kiểu tập tin mở rộng .EXE 
+[HKEY_CLASSES_ROOT\exefile\shell\open\command],(Default) = "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .COM 
+[HKEY_CLASSES_ROOT\comfile\shell\open\command],(Default) = "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .BAT 
+[HKEY_CLASSES_ROOT\batfile\shell\open\command],(Default) = "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .PIF 
+[HKEY_CLASSES_ROOT\piffile\shell\open\command],(Default) = "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .TXT 
+[HKEY_CLASSES_ROOT\txtfile\shell\open\command],(Default) = NOTEPAD.EXE "%1" (Đã bị sửa đổi) 
+
+Kiểu tập tin mở rộng .INI 
+[HKEY_CLASSES_ROOT\inifile\shell\open\command],(Default) = NOTEPAD.EXE "%1" (Đã bị sửa đổi) 
+
+Kiểu tập tin mở rộng .VBS 
+[HKEY_CLASSES_ROOT\vbsfile\shell\open\command],(Default) = %SystemRoot%\System32\WScript.exe "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .WSH 
+[HKEY_CLASSES_ROOT\wshfile\shell\open\command],(Default) = %SystemRoot%\System32\WScript.exe "%1" %* (Nguyên bản) 
+
+Kiểu tập tin mở rộng .MSC 
+[HKEY_CLASSES_ROOT\mscfile\shell\open\command],(Default) = %SystemRoot%\system32\mmc.exe "%1" %* (Nguyên bản) 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Tùy chỉnh hệ thống -> Executable Shell Command 
+
+
+
+[+] Khóa đăng ký gỡ rối các tập tin thực thi 
+-----------------------------------------------------------------
+[HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options] 
+ *Không tìm thấy gì khả nghi* 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Tùy chỉnh hệ thống -> Executable Debugger 
+
+
+
+[+] Hiện trạng cho phép, vô hiệu các tính năng của Windows 
+-----------------------------------------------------------------
+Window Task Manager 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System,DisableTaskMgr = 0 (Cho phép) 
+
+Registry Editor 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System,DisableRegistryTools = 0 (Cho phép) 
+
+Window Command Prompt 
+HKCU\Software\Policies\Microsoft\Windows\System,DisableCMD = 0 (Cho phép) 
+
+Internet Home Page 
+HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel,HomePage = 0 (Cho phép) 
+
+DOS Mode 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\WinOldApp,NoRealMode = 0 (Cho phép) 
+
+Control Panel 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoControlPanel = 0 (Cho phép) 
+
+Nút Log Off 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoLogoff = 0 (Cho phép) 
+
+Nút Turn Off 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoClose = 0 (Cho phép) 
+
+Trình lệnh đơn Run 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoRun = 0 (Cho phép) 
+
+Folder Options 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoFolderOptions = 0 (Cho phép) 
+
+Tray Context Menu 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,Notraycontextmenu = 0 (Cho phép) 
+
+View Context Menu 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,Noviewcontextmenu = 0 (Cho phép) 
+
+Một số lệnh Run 
+HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,RestricRun = 0 (Cho phép) 
+
+-----------------------------------------------------------------
+-> Công cụ hỗ trợ: VnSecurity 2008 -> Tùy chỉnh hệ thống 
+
+
+================================================================= 
+Hoàn tất báo cáo, 17047 byte 
+Bạn có thể sử dụng các công cụ gợi ý hoặc công cụ hệ thống để sửa chữa các tính năng này 
+Nếu bạn chưa biết cách phân tích báo cáo thì có thể gửi lên diễn đàn để chúng tôi phân tích giùm bạn 
+Diễn đàn hỗ trợ phân tích www.virusvn.com, www.cuasotinhoc.vn 
+Copyright (c) 2008 gianghoplus. All right reserved. 
